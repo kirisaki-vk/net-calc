@@ -1,0 +1,32 @@
+{
+  "name": "net-calc",
+  "productName": "net-calc",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "keywords": [],
+  "author": "Kirisaki_VK",
+  "license": "MIT",
+  "dependencies": {
+    "bitwise": "^2.1.0",
+    "electron-squirrel-startup": "^1.0.0",
+    "ip-cidr": "^3.1.0",
+    "ip-utils": "^2.4.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.1.1",
+    "@electron-forge/maker-deb": "^6.1.1",
+    "@electron-forge/maker-rpm": "^6.1.1",
+    "@electron-forge/maker-squirrel": "^6.1.1",
+    "@electron-forge/maker-zip": "^6.1.1",
+    "electronmon": "^2.0.2",
+    "electron": "25.0.1"
+  }
+}
